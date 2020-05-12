@@ -5,10 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>Health: <span id="health"> 100 </span> </h1>
+      </div>
+      <div class="col-12 text-center">
+        <img src="https://avatars2.githubusercontent.com/u/13141320?s=400&v=4" alt="">
+      </div>
+      <div class="col-12 text-center mt-3">
+        <button class="btn btn-primary" onclick="app.gameController.slap()">Slap</button>
+        <button class="btn btn-primary">Tickle</button>
+        <!-- <button class="btn btn-primary"></button> -->
+      </div>
+    </div>
 
+
+  </main>
 
   <script src="./app/main.js" type="module"></script>
 </body>
