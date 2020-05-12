@@ -6,4 +6,6 @@ export default class Target {
     this.hits = 0
     console.log("hello from Target Model");
   }
+
+
 }

@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
@@ -19,9 +20,10 @@
         <img src="https://avatars2.githubusercontent.com/u/13141320?s=400&v=4" alt="">
       </div>
       <div class="col-12 text-center mt-3">
-        <button class="btn btn-primary" onclick="app.gameController.slap()">Slap</button>
-        <button class="btn btn-primary">Tickle</button>
-        <!-- <button class="btn btn-primary"></button> -->
+        <button class="btn btn-primary" onclick="app.gameController.attack('slap')">Slap</button>
+        <button class="btn btn-primary" onclick="app.gameController.attack('tickle')">Tickle</button>
+        <button class="btn btn-danger" onclick="app.gameController.hadouken()">HADOUKEN</button>
+        <button class="btn btn-primary" onclick="app.gameController.reset()">Reset</button>
       </div>
     </div>
 

@@ -17,5 +17,14 @@ export default class GameController {
     _draw()
   }
 
+  attack(attackName) {
+    _gameService.attack(attackName)
+    _draw()
+  }
+
+  reset() {
+    _gameService.reset()
+    _draw()
+  }
 
 }
